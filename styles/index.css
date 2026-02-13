@@ -28,7 +28,7 @@ body{
     color: gold;
 }
 @keyframes move{0%
-{transform: translateX(0);}
+{transform: translatey(0);}
 
 100%{
     transform: translateX(200px);
