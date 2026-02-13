@@ -28,12 +28,22 @@ body{
     .card:hover{
         transform: translateY(-8px); 
         scale: 1;
-        box-shadow: 0 20px 40px rgba(255, 102, 178, 0,5);
+    }
+    .card-img img{
+        width: 300px;
+        height: auto;
+        
+    }
+
+    .card-img img:hover{
+        transform: scale(2.2)
+        rotate(10deg)
+        translateY(-5px)
     }
 
 .box{
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: hotpink;
     animation: move 1s infinite alternate;
 }
@@ -42,6 +52,7 @@ body{
     font-weight: bolder;
     color: gold;
 }
+
 @keyframes move{0%
 {transform: translatey(0);}
 
@@ -54,6 +65,9 @@ body{
     50%{
         transform:scale(1.15);
     }
+
+  
+
     
 
 
