@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: radial-gradient(circle, #ffb3d9, #ff66b2, #ff3385
+    );
+    
+}
+.card{
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+    
+    text-align: center;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 400px;
+}
